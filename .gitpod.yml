@@ -1,0 +1,11 @@
+tasks:
+  - init: docker-compose up -d
+
+ports:
+  - name: Jenkins-quickstart
+    port: 8080
+    onOpen: open-browser
+    
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
